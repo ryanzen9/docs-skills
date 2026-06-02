@@ -1,9 +1,9 @@
 ---
-name: format-docs
+name: formatting-docs
 description: Use when asked to check, format, beautify, or lint a blog article or Markdown post. Triggers on formatting requests for .md files, blog posts, or article cleanup.
 ---
 
-# Format Docs Skill
+# Formatting Docs Skill
 
 Format-only modifications for Markdown blog articles. Never change content, wording, or semantics.
 
