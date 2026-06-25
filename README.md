@@ -110,4 +110,4 @@ description: 一句话描述 skill 的用途和触发场景
 
 ## 许可
 
-MIT
+[MIT](LICENSE)
