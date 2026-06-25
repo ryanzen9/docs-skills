@@ -9,6 +9,8 @@ Create documentation diagrams that clarify technical content without reducing Ma
 
 ## Core Principle
 
+**Show, don't just tell. Use Diagram-as-Code to reduce cognitive load.**
+
 Prefer text-native, reviewable diagrams first. Use image-based drawings only when Mermaid cannot express the concept clearly.
 
 ## When to Use
@@ -27,15 +29,15 @@ Prefer text-native, reviewable diagrams first. Use image-based drawings only whe
 
 ## Diagram Selection
 
-| Need | Use | Notes |
-|---|---|---|
-| Process, workflow, decision path | Mermaid flowchart | Keep nodes short; label important edges |
-| API/service interaction over time | Mermaid sequenceDiagram | Show actors, request/response, failure paths |
-| Lifecycle or mode changes | Mermaid stateDiagram | Use for state transitions, not general flow |
-| Classes, modules, schemas | Mermaid classDiagram or erDiagram | Prefer exact names from the document/code |
-| Project timeline | Mermaid gantt or timeline | Include dates only when verified |
-| Concept map, layered architecture, metaphor | Excalidraw | Export SVG/PNG for portable Markdown |
-| Hand-drawn explanation or visual analogy | Excalidraw | Keep source editable and exported asset linked |
+| Need                                        | Use                               | Notes                                          |
+| ------------------------------------------- | --------------------------------- | ---------------------------------------------- |
+| Process, workflow, decision path            | Mermaid flowchart                 | Keep nodes short; label important edges        |
+| API/service interaction over time           | Mermaid sequenceDiagram           | Show actors, request/response, failure paths   |
+| Lifecycle or mode changes                   | Mermaid stateDiagram              | Use for state transitions, not general flow    |
+| Classes, modules, schemas                   | Mermaid classDiagram or erDiagram | Prefer exact names from the document/code      |
+| Project timeline                            | Mermaid gantt or timeline         | Include dates only when verified               |
+| Concept map, layered architecture, metaphor | Excalidraw                        | Export SVG/PNG for portable Markdown           |
+| Hand-drawn explanation or visual analogy    | Excalidraw                        | Keep source editable and exported asset linked |
 
 ## Execution Flow
 
@@ -66,10 +68,10 @@ Prefer text-native, reviewable diagrams first. Use image-based drawings only whe
 
 ## Common Mistakes
 
-| Mistake | Fix |
-|---|---|
-| Choosing Excalidraw for simple flows | Use Mermaid flowchart |
-| Diagram duplicates prose without adding structure | Remove it or focus it on relationships |
-| Too many nodes in one visual | Split into stages or layers |
-| Unverified dates, metrics, or dependencies | Verify or omit |
-| Obsidian-only embed breaks on GitHub | Export SVG/PNG and use Markdown image syntax |
+| Mistake                                           | Fix                                          |
+| ------------------------------------------------- | -------------------------------------------- |
+| Choosing Excalidraw for simple flows              | Use Mermaid flowchart                        |
+| Diagram duplicates prose without adding structure | Remove it or focus it on relationships       |
+| Too many nodes in one visual                      | Split into stages or layers                  |
+| Unverified dates, metrics, or dependencies        | Verify or omit                               |
+| Obsidian-only embed breaks on GitHub              | Export SVG/PNG and use Markdown image syntax |
